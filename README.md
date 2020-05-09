@@ -1,2 +1,3 @@
-# Nesne-Tabanl-Programlama
+# Nesne-Tabanli-Programlama
 Nesne Tabanlı Programlama Ders Notları ve Uygulamaları
+Ferhat AKAR
