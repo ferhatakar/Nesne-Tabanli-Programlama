@@ -1,0 +1,14 @@
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\bin\Debug\Kapsulleme.exe.config
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\bin\Debug\Kapsulleme.exe
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\bin\Debug\Kapsulleme.pdb
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.csprojResolveAssemblyReference.cache
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\MainWindow.g.cs
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\App.g.cs
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme_MarkupCompile.cache
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme_MarkupCompile.lref
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\MainWindow.baml
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.g.resources
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.Properties.Resources.resources
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.csproj.GenerateResource.Cache
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.exe
+C:\Users\Ferhat\Desktop\Öğretmenlik\NTP_pdf\Ornekler\Kapsulleme\Kapsulleme\obj\Debug\Kapsulleme.pdb
