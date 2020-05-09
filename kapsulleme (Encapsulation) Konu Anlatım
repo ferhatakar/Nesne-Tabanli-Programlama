@@ -8,4 +8,6 @@ Bir sınıfın üye değişkenlerini ve üye işlevlerini diğer işlevlerden ve
 
 Kapsülleme (Encapsulation) sayesinde nesneler bilinçsiz kullanımdan korunmuş olur. Fakat bazı durumlarda private field’ lara erişmemiz ve özelliklerini kullanmamız gerekebilir. Bu durumda Property kavramı devreye girer. Property bir field’ in değerini geri döndürmeye (Get) ve değerini ayarlamaya (Set) olanak sağlar.
 
-Aşağıdaki Örnek Uygulamada Class’ ta kapsülleme kullanılarak Insan özeliklerine değer atama ve ekrana yazdırma işlemi yapılmıştır. Yaş Alanına girilen değer 0'ın altında veya 100'ün üzerindeyse hata Mesajı vermesi sağlanmıştır.
+Aşağıdaki Örnek Uygulamada Class’ ta kapsülleme kullanılarak Insan özeliklerine değer atama ve ekrana yazdırma işlemi yapılmıştır. Yaş Alanına girilen değer 0'ın altında veya 100'ün üzerindeyse hata Mesajı vermesi sağlanmıştır. 
+
+Kodları Ekte Bulabilirsiniz.
