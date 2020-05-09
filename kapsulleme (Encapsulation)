@@ -1,0 +1,11 @@
+Kapsülleme (Encapsulation) kavramı : Bir nesnenin bazı özellik ve işlevlerini başka sınıflardan ve nesnelerden saklamaktır. 
+Private erişim belirteci sayesinde bu şekilde tanımlanan bir field’ i başka sınıflardan gizlemiş oluruz.
+Ayrıca bu field başka sınıflarda kullanılamaz. 
+Çünkü ; 
+
+Private erişim belirteci:
+Bir sınıfın üye değişkenlerini ve üye işlevlerini diğer işlevlerden ve nesnelerden gizlemesine izin verir.private yapılan öge sadece sınıf üyeleri tarafından erişilebilir. Sınıf dışından hiçbir şekilde private olan üyeye erişilemez.
+
+Kapsülleme (Encapsulation) sayesinde nesneler bilinçsiz kullanımdan korunmuş olur. Fakat bazı durumlarda private field’ lara erişmemiz ve özelliklerini kullanmamız gerekebilir. Bu durumda Property kavramı devreye girer. Property bir field’ in değerini geri döndürmeye (Get) ve değerini ayarlamaya (Set) olanak sağlar.
+
+Aşağıdaki Örnek Uygulamada Class’ ta kapsülleme kullanılarak Insan özeliklerine değer atama ve ekrana yazdırma işlemi yapılmıştır. Yaş Alanına girilen değer 0'ın altında veya 100'ün üzerindeyse hata Mesajı vermesi sağlanmıştır.
