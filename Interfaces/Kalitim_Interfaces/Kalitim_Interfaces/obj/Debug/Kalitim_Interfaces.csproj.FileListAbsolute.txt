@@ -1,0 +1,14 @@
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\bin\Debug\Kalitim_Interfaces.exe.config
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\bin\Debug\Kalitim_Interfaces.exe
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\bin\Debug\Kalitim_Interfaces.pdb
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\MainWindow.g.cs
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\App.g.cs
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces_MarkupCompile.cache
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces_MarkupCompile.lref
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\MainWindow.baml
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.g.resources
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.Properties.Resources.resources
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.csproj.GenerateResource.Cache
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.exe
+C:\Users\Ferhat\Desktop\Kalitim_Interfaces\Kalitim_Interfaces\obj\Debug\Kalitim_Interfaces.pdb
