@@ -1,0 +1,44 @@
+ C# ve Java dillerinin C++’ın aksine Çoklu Kalıtımı (Multiple Inheritance) desteklemeyen dillerdir. 
+ Kalıtım, Nesneye Yönelik Programlama dillerinde bir Base Class’ın (Super Class, Parent Class vs.) türetme yöntemiyle belli özelliklerini türeyen sınıflara aktarabilmesidir, böylece hem anlamlı hiyerarşik bir yapı kurabilir hem de reusability(tekrar Kullanılabilirlik)’i arttırmış oluruz. Çoklu kalıtımı destekleyen diller bir sınıfın birden fazla sınıftan türemesine imkan tanırlar.
+Java, C# gibi dillerde bildiğiniz üzere bu şekilde çoklu kalıtım yapamıyoruz bunun yerine  interface’ler ile işimizi hallediyoruz. 
+--------------------------SOLID Prensipleri Başlangıç-----------------------------
+Kalıtım Kullanmamızdaki Temel amaç SOLID Prensiplerine dayanmaktadır. Bu prensiplerden  Interface Segregation  kısmında yer alan ozellikten dolayı bu yapıyı kuruyoruz.
+SOLID Prensipleri (SOLID İlkeleri), nesne yönelimli programlama ve tasarım için ortaya çıkmış  5 adet ilkeden oluşan bir bağımlılık yönetimi (dependency management) biçimidir. 
+SOLID kısaltmasını oluşturan prensipleri hızlıca açıklayalım.
+ + Single Responsibility : 
+Sınıflarımızın iyi tanımlanmış tek bir sorumluluğu olmalı.
+ + Open/Closed : 
+Sınıflarımız değişikliğe kapalı ancak yeni davranışların eklenmesine açık olmalı.
+ + Liskov Substitution : 
+Kodumuzda herhangi bir değişiklik yapmaya gerek kalmadan türetilmiş sınıfları (sub class) türedikleri ata sınıfın (base class) yerine kullanabilmeliyiz.
+ + Interface Segregation :
+Genel kullanım amaçlı tek bir kontrat yerine daha özelleşmiş birden çok kontrat oluşturmayı tercih etmeliyiz.
+ + Dependency Inversion : 
+Katmanlı mimarilerde üst seviye modüller alt seviyedeki modüllere doğruda bağımlı olmamalıdır.
+--------------------------SOLID Prensipleri Son-----------------------------
+
+
+Dersteki örnekte yaptığımız Galeri sınıfından türetilmiş Hız ve Renk Sınıfları vardır.aynı zamanda Araba sınıfı Hız ve renk sınıflarından türemştir. Hız ve renk sınıfları Galeri sınıfını kullanabiliyor ama Araba sınıfı aynı anda 2 tane kalıtımı desteklemez çünkü c# programlama dili bu yapıya izin vermez. Bunun için benzer yapıyı Interfaces kullanarak yapıyoruz. Interfaes tanımı ve özellikleri altta belirtildiği gibidir.
+
+Interface sözdizimi (syntax) olarak classlara benzemesine rağmen farklı bir yapıdır. Interface, bir classın sağlaması gereken yeteneklerin beyanıdır(Özet kısmıdır. Detay içermez).
+
+-- Interfaces tanımlarının başında 'I' harfi kullanılır ve bu standarttır.
+
+-- Interface içerisinde yanlızca metodlar ve propertyler tanımlanır, field tanımlanamaz.
+
+-- Interface üyeleri herhangi bir access modifier’ a sahip değillerdir , implement edilen class tarafından bütün üyeler erişilebilir.
+
+-- Interface’ ler loosely coupled uygulamalar oluşturmaya yardımcı olur. Aralarında bir interface oluşturarak iki class arasındaki bağlantıyı azaltırız. Bu şekilde, eğer bu class’lardan biri değişirse, buna bağlı olan class üzerinde hiçbir etkisi olmaz.
+
+-- C# da multiple(Çoklu) inheritance(miras) yoktur bir class birden fazla class’ı miras alamaz.
+
+-- C# da bir class birden fazla interface’i implement edebilir fakat bunu inheritance ile karıştırmamak gerekir, interface yapısını multiple inheritance amacıyla kullanmak tamamen yanlış bir yaklaşımdır, interface yapısı multiple inheritance yapmak için oluşturulmamıştır.
+
+-- Inheritance(miras) ile kodu bir kez yazar ve tüm bu kodu tekrar yazmanıza gerek kalmadan yeniden kullanırız.
+
+-- Interface ile yalnızca uygulama class’ının içermesi gereken üyeleri implement ederiz.
+
+
+Not: Interface geliştirdiğimiz yazılımda aynı kavramın birden farklı şekilde uygulandığında bu kavramı soyutlayarak kodun esnekliğini,okunulabilirliğini arttırmak ve değişimin etkisini en aza indirmek için kullanılan yapılardır.Genelde Interface’den türeyen sınıflar arasında CAN-DO(yapabilir) ilişkisi vardır.
+
+
